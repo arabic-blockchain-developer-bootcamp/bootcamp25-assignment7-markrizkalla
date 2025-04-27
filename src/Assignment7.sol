@@ -14,6 +14,6 @@ contract Assignment7 is ERC20 {
     function mint(address to, uint256 amount) public {
         // Fill in the logic
         // call _mint function with to and amount params
-        _mint(to, amount)
+        _mint(to, amount);
     }
 }
